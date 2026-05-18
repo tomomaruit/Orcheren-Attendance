@@ -74,7 +74,7 @@ function organizeResponses() {
   const uniqueData = Object.values(latestResponses);
 
   // 指定されたパート順に並び替え
-  const partOrder = ['Fl', 'Ob', 'Cl', 'Fg', 'Tp', 'Tb', 'Hr', 'Tu', 'Per', 'Vn', 'Vla', 'Vc', 'Cb']; // ここを任意に並び替え可能
+  const partOrder = ['Fl', 'Ob', 'Cl', 'Fg', 'Hr', 'Tp', 'Tb', 'Tu', 'Per', 'Vn', 'Vla', 'Vc', 'Cb']; // ここを任意に並び替え可能
   // ここに入っていない特殊楽器は一番最後になる
   uniqueData.sort((a, b) => {
     const partA = a[2];
